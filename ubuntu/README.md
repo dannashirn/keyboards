@@ -4,7 +4,7 @@ Using Ubuntu
 Add it to you systems keyboard and restart your computer.
 
 ```
-cat real-prog-dvorak >> ~/.config/xkb/real-prog-dovark
+cat real-prog-dvorak >> ~/.config/xkb/real-prog-dvorak
 ```
 
 Then you have to update the `sudo vim /usr/share/X11/xkb/rules/evdev.xml` with the following, add it near the other English keyboards
